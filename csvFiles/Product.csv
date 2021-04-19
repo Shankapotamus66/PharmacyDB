@@ -1,0 +1,41 @@
+p_id,p_price,p_name,p_supplier,p_quantity,p_PrescriptionNeeded
+1,121,PERFECTION LUMIERE,Uriel Pharmacy Inc,586,false
+2,31,Methocarbamol,Pfizer Consumer Healthcare,737,true
+3,15,Lidocaine Hydrochloride,Antigen Laboratories Inc,477,false
+4,131,Listerine,Infirst Healthcare,469,false
+5,101,Clarithromycin,Cardinal Health,585,false
+6,42,SERTRALINE,Clinical Solutions Wholesale,765,false
+7,34,quetiapine fumarate,Antigen Laboratories Inc,204,true
+8,38,MORPHINE SULFATE,Infirst Healthcare,734,false
+9,149,Citalopram,Antigen Laboratories Inc,914,true
+10,103,allergy relief,Cardinal Health,219,true
+11,39,HEADACHE,Infirst Healthcare,180,false
+12,21,Potassium Chloride in Dextrose and Sodium Chloride,Proficient Rx LP,512,true
+13,110,Berkley and Jensen Nasal Decongestant PE,Medline Industries,206,false
+14,110,Childrens Day Time Cold and Cough,Proficient Rx LP,914,false
+15,115,Imipramine Hydrochloride,Antigen Laboratories Inc,947,false
+16,55,Enoxaparin Sodium,Pfizer Consumer Healthcare,435,false
+17,43,Sinus and Cold D,Medline Industries,540,true
+18,103,QUALITY CHOICE Antibacterial Moist Towelettes,Pfizer Consumer Healthcare,254,false
+19,149,ATORVASTATIN CALCIUM,Cardinal Health,872,false
+20,92,Plexion,Proficient Rx LP,775,false
+21,146,waterless anti bacterial hand sanitizer,Infirst Healthcare,308,false
+22,10,Neutrogena Oil Free Acne Wash,Cardinal Health,865,false
+23,150,Aero CleansE2 Antibacterial,Cardinal Health,151,false
+24,115,Diclofenac Sodium,Infirst Healthcare,154,false
+25,66,Caverject,Uriel Pharmacy Inc,554,false
+26,45,Aquavit Etheric Energizer,Cardinal Health,348,false
+27,19,Powerful Pain Medicine,Cardinal Health,226,false
+28,105,Imipramine Hydrochloride,Clinical Solutions Wholesale,195,false
+29,36,Kiwi,Cardinal Health,530,false
+30,105,EZ PAIN RELIEVING,Proficient Rx LP,343,false
+31,138,Fluocinonide,Top Care,565,false
+32,143,Freshorize,Medline Industries,740,false
+33,97,BareMinerals,Antigen Laboratories Inc,232,false
+34,150,LIPSTICK QUEEN ENDLESS SUMMER Broad Spectrum SPF 15 Sunscreen,Cardinal Health,578,false
+35,47,Oxygen,Antigen Laboratories Inc,606,false
+36,102,daytime,Proficient Rx LP,231,false
+37,118,Metronidazole,Infirst Healthcare,923,false
+38,91,Raggedy Ann and Andy Foam,Medline Industries,958,false
+39,144,Modesa anti-bacterial hand gel,Cardinal Health,759,true
+40,67,Phenazopyridine HCl,Antigen Laboratories Inc,522,true
