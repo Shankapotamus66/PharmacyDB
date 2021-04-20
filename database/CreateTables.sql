@@ -201,7 +201,6 @@ CREATE TABLE IF NOT EXISTS Covers
 (
     c_id integer NOT NULL,
     i_id integer NOT NULL,
-    order_date date NOT NULL,
     
     CONSTRAINT c_id FOREIGN KEY (c_id)
     REFERENCES Customer(c_id),
