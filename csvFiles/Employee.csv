@@ -1,41 +1,20 @@
 e_id,e_fname,e_lname,e_salary,e_position,e_snn,e_address,e_email,e_password
-1,Ruggiero,Blint,50000,Supervisor,494-27-6559,00 Laurel Avenue,rblint0@house.gov,2mb8po0k
-2,Thayne,Ollett,60000,Supervisor,561-25-4086,04153 Blackbird Plaza,tollett1@cdc.gov,uxbxANwe1
-3,Bald,Connochie,60000,Supervisor,892-26-7957,1090 Sycamore Plaza,bconnochie2@opensource.org,dq204X
-4,Cecil,Flancinbaum,50000,Supervisor,831-53-5856,407 Fuller Road,cflancinbaum3@nature.com,2GohZFxGf
-5,Livvyy,Roget,60000,Supervisor,301-25-0091,80 Loeprich Crossing,lroget4@unblog.fr,vnZsyj7h
-6,Hope,Skullet,60000,Manager,598-49-4296,4652 Lakewood Gardens Way,hskullet5@nyu.edu,QxzxKYYSof
-7,Ambrose,Bemand,65000,Manager,462-31-1186,60231 Birchwood Hill,abemand6@guardian.co.uk,zfVVj8g2F
-8,Amye,Andriveau,50000,Manager,410-86-5794,1066 East Lane,aandriveau7@example.com,Eamv86
-9,Dominik,Bellenger,65000,Manager,618-57-8993,34092 Morrow Alley,dbellenger8@storify.com,iZxifoxu
-10,Ulberto,Durrand,50000,Manager,355-99-7363,26731 Basil Avenue,udurrand9@diigo.com,zHqz7V
-11,Kylie,Burge,60000,Manager,480-14-9917,3 Jay Way,kburgea@wp.com,bwovpfUT
-12,Patsy,Attoe,50000,Manager,325-40-5177,4383 Forest Run Place,pattoeb@weebly.com,R0tBub
-13,Aubrie,Benoi,50000,Manager,195-30-3231,56727 Mayfield Hill,abenoic@foxnews.com,HGpWNz5LbY
-14,Judith,Smurfitt,60000,Manager,502-66-2678,5400 Golf Course Way,jsmurfittd@prlog.org,M0wixZpgHz7z
-15,Cherise,Lauritzen,60000,Pharmacist Technician,283-68-4084,084 Oak Park,clauritzene@addtoany.com,uI5c5OmsDjFA
-16,Vladamir,Doy,50000,Pharmacist Technician,257-06-6690,19767 Sloan Parkway,vdoyf@paginegialle.it,RRTJ4KTiB27
-17,Florri,Manicom,65000,Pharmacist Technician,435-20-0812,6860 Pierstorff Junction,fmanicomg@furl.net,tzHWp9l
-18,Hanna,Cubbini,65000,Pharmacist Technician,752-31-4020,85 Melby Parkway,hcubbinih@state.tx.us,wH0dP59PWB
-19,Kimbra,Hallut,60000,Pharmacist Technician,158-40-5671,41236 Scoville Place,khalluti@discuz.net,IEBt7K5x2lw
-20,Phoebe,Hankard,65000,Pharmacist Technician,547-97-1523,96800 Ruskin Center,phankardj@cornell.edu,pLWjmW
-21,Hugh,Livingstone,60000,Pharmacist Technician,650-29-1510,41 Roxbury Circle,hlivingstonek@github.io,xwNi3kQ
-22,Dick,Antonetti,50000,Pharmacist Technician,668-36-5489,2 Gateway Way,dantonettil@lycos.com,fz1PmHgKJ9
-23,Diana,Fawcitt,60000,Pharmacist Technician,237-19-7748,4234 Westend Crossing,dfawcittm@domainmarket.com,uU3RUXdh37xJ
-24,Gretta,Whieldon,50000,Pharmacist Technician,575-79-3701,5308 Algoma Park,gwhieldonn@berkeley.edu,YmERsF0bWBL
-25,Gardner,Judron,50000,Pharmacist Technician,731-37-3148,5 Arkansas Drive,gjudrono@goo.ne.jp,T49VwxP32
-26,Kennan,Costi,50000,Pharmacist Technician,792-32-8028,6 Emmet Point,kcostip@mediafire.com,e1T1orIm
-27,Lennie,Siddle,60000,Pharmacist Technician,767-49-8907,38735 Aberg Street,lsiddleq@about.com,mTq72AuYb
-28,Kacie,Robardey,50000,Pharmacist Technician,484-20-5754,95090 Anzinger Street,krobardeyr@unesco.org,VO5rlxNdd
-29,Art,Searson,50000,Pharmacist Technician,494-85-1861,08 Cottonwood Way,asearsons@economist.com,AT5sBzjnVC
-30,Ravi,Bickers,50000,Pharmacist Technician,232-76-8977,81 Dexter Lane,rbickerst@accuweather.com,zx39ZAI
-31,Bram,Ravel,60000,Packer,207-21-3823,58776 Bowman Parkway,bravelu@patch.com,X1qAcEP1
-32,Darcy,Tidgewell,50000,Packer,841-12-0061,2364 Commercial Parkway,dtidgewellv@technorati.com,w614MOmI2LDk
-33,Debora,Casper,50000,Packer,158-69-2013,443 Dixon Terrace,dcasperw@t-online.de,PrnwT2LoPf
-34,Riccardo,Antao,65000,Packer,783-51-4812,5 Hallows Alley,rantaox@privacy.gov.au,ctI1r8
-35,Brena,Eve,60000,Packer,394-30-4887,6 Grover Plaza,bevey@craigslist.org,MzR6qdG
-36,Conrad,Antonescu,65000,Packer,328-11-3931,77 Mifflin Alley,cantonescuz@toplist.cz,94YOMCzzKvR
-37,Sven,Varney,60000,Packer,150-03-5400,3038 Village Point,svarney10@shop-pro.jp,6CATIrgljX
-38,Perle,Heineken,50000,Packer,702-07-3195,9461 Browning Avenue,pheineken11@fda.gov,vASHEXCcDj7c
-39,Layney,Hayball,65000,Packer,162-14-9939,449 Meadow Ridge Circle,lhayball12@addtoany.com,wXm5Ni4sUseD
-40,Gussi,Zanre,60000,Packer,787-64-3673,587 Anderson Alley,gzanre13@usatoday.com,ldDCDj
+DEFAULT,Ruggiero,Blint,50000,Packer,494-27-6559,"00 Laurel Avenue,
+Bakersfield, CA, 93312",rblint0@house.gov,2mb8po0k
+DEFAULT,Thayne,Ollett,80000,Pharmacist Technician,561-25-4086,"04153 Blackbird Plaza,
+Bakersfield, CA, 93311",tollett1@cdc.gov,uxbxANwe1
+DEFAULT,Bald,Connochie,60000,Packer,892-26-7957,"1090 Sycamore Plaza,
+Bakersfield, CA, 93312",bconnochie2@opensource.org,dq204X
+DEFAULT,Cecil,Flancinbaum,50000,Packer,831-53-5856,"407 Fuller Road,
+Bakersfield, CA, 93311",cflancinbaum3@nature.com,2GohZFxGf
+DEFAULT,Livvyy,Roget,60000,Supervisor,301-25-0091,"80 Loeprich Crossing,
+Bakersfield, CA, 93311",lroget4@unblog.fr,vnZsyj7h
+DEFAULT,Hope,Skullet,75000,Manager,598-49-4296,"4652 Lakewood Gardens Way,
+Bakersfield, CA, 93312",hskullet5@nyu.edu,QxzxKYYSof
+DEFAULT,Ambrose,Bemand,80000,Pharmacist Technician,462-31-1186,"60231 Birchwood Hill,
+Bakersfield, CA, 93307",abemand6@guardian.co.uk,zfVVj8g2F
+DEFAULT,Amye,Andriveau,50000,Packer,410-86-5794,1066 East Lane,aandriveau7@example.com,Eamv86
+DEFAULT,Dominik,Bellenger,65000,Packer,618-57-8993,"34092 Morrow Alley,
+Bakersfield, CA, 93311",dbellenger8@storify.com,iZxifoxu
+DEFAULT,Ulberto,Durrand,55000,Packer,355-99-7363,"26731 Basil Avenue,
+Bakersfield, CA, 93311",udurrand9@diigo.com,zHqz7V

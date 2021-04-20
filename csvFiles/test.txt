@@ -1,0 +1,1 @@
+This file is a test, to show that the python script (insertgen.py) does not include this file when it scans and converts the .csv files into INSERTS for sql.

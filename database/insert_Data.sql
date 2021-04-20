@@ -3,4 +3,12 @@
 \i ./mockdata/create_Product.sql
 \i ./mockdata/create_Insurance.sql
 \i ./mockdata/create_Supplier.sql
+\i ./mockdata/create_Orders.sql
 \i ./mockdata/create_Discounts.sql
+\i ./mockdata/create_Prescription.sql
+\i ./mockdata/create_Contains.sql
+\i ./mockdata/create_Restocks.sql
+\i ./mockdata/create_OrdersFrom.sql
+\i ./mockdata/create_Covers.sql
+\i ./mockdata/create_Ships.sql
+\i ./mockdata/create_Provides.sql

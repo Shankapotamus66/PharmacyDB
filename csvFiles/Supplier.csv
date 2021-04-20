@@ -1,11 +1,11 @@
 ﻿s_id,s_name
-1,Pfizer Consumer Healthcare
-2,Cardinal Health
-3,Medline Industries
-4,Top Care
-5,Infirst Healthcare
-6,Antigen Laboratories Inc
-7,Proficient Rx LP
-8,Uriel Pharmacy Inc
-9,BioActive Nutritional Inc
-10,Clinical Solutions Wholesale
+DEFAULT,Pfizer Consumer Healthcare
+DEFAULT,Cardinal Health
+DEFAULT,Medline Industries
+DEFAULT,Top Care
+DEFAULT,Infirst Healthcare
+DEFAULT,Antigen Laboratories Inc
+DEFAULT,Proficient Rx LP
+DEFAULT,Uriel Pharmacy Inc
+DEFAULT,BioActive Nutritional Inc
+DEFAULT,Clinical Solutions Wholesale

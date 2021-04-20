@@ -53,8 +53,11 @@ for files in range(len(entries)):
                 else:
                     #print(row)
                     #Grab current row that contains the attributes and join them with a ", " seperation.
-                    for i in range(len(row)):
-                        if row[i].isnumeric() == False:
+                    rowLen = len(row)
+                    for i in range(rowLen):
+                        if row[i] == "DEFAULT":
+                            continue
+                        elif row[i].isnumeric() == False:
                             row[i] = "\'"+ row[i] + "\'"
                     values = ", ".join(row)
                     print("INSERT INTO {0} ({1}) VALUES ({2});".format(tableName[:-4], attributes, values))

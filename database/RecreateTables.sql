@@ -1,5 +1,6 @@
 ----------Customer----------
-CREATE TABLE IF NOT EXISTS Customer
+DROP TABLE IF EXISTS Customer CASCADE;
+CREATE TABLE Customer
 (
     c_id SERIAL NOT NULL,
     c_fname character varying(20) COLLATE pg_catalog."default" NOT NULL,
@@ -19,7 +20,8 @@ CREATE TABLE IF NOT EXISTS Customer
     OWNER to pharmacy;
 
 ----------Employee----------
-CREATE TABLE IF NOT EXISTS Employee
+DROP TABLE IF EXISTS Employee CASCADE;
+CREATE TABLE Employee
 (
     e_id SERIAL NOT NULL,
     e_fname character varying(20) COLLATE pg_catalog."default" NOT NULL,
@@ -40,7 +42,8 @@ CREATE TABLE IF NOT EXISTS Employee
     OWNER to pharmacy;
 
 ----------Product----------
-CREATE TABLE IF NOT EXISTS Product
+DROP TABLE IF EXISTS Product CASCADE;
+CREATE TABLE Product
 (
     p_id SERIAL NOT NULL,
     p_price integer NOT NULL,
@@ -58,7 +61,8 @@ CREATE TABLE IF NOT EXISTS Product
     OWNER to pharmacy;
 
 ----------Insurance----------
-CREATE TABLE IF NOT EXISTS Insurance
+DROP TABLE IF EXISTS Insurance CASCADE;
+CREATE TABLE Insurance
 (
     i_id SERIAL NOT NULL,
     i_name character varying(50) COLLATE pg_catalog."default" NOT NULL,
@@ -73,7 +77,8 @@ CREATE TABLE IF NOT EXISTS Insurance
     OWNER to pharmacy;
 
 ----------Supplier----------
-CREATE TABLE IF NOT EXISTS Supplier
+DROP TABLE IF EXISTS Supplier CASCADE;
+CREATE TABLE Supplier
 (
     s_id SERIAL NOT NULL,
     s_name character varying(50) COLLATE pg_catalog."default" NOT NULL,
@@ -87,7 +92,8 @@ CREATE TABLE IF NOT EXISTS Supplier
     OWNER to pharmacy;
 
 ----------Orders----------
-CREATE TABLE IF NOT EXISTS Orders
+DROP TABLE IF EXISTS Orders CASCADE;
+CREATE TABLE Orders
 (
     c_id integer NOT NULL,
     o_id SERIAL NOT NULL,
@@ -105,7 +111,8 @@ CREATE TABLE IF NOT EXISTS Orders
 
 
 ----------Discounts----------
-CREATE TABLE IF NOT EXISTS Discounts
+DROP TABLE IF EXISTS Discounts CASCADE;
+CREATE TABLE Discounts
 (
     i_id integer NOT NULL,
     p_id integer NOT NULL,
@@ -123,7 +130,8 @@ CREATE TABLE IF NOT EXISTS Discounts
     OWNER to pharmacy;
 
 ----------Presciption----------
-CREATE TABLE IF NOT EXISTS Prescription
+DROP TABLE IF EXISTS Presciption CASCADE;
+CREATE TABLE Presciption
 (
     p_id integer NOT NULL,
     c_id integer NOT NULL,
@@ -139,11 +147,12 @@ CREATE TABLE IF NOT EXISTS Prescription
 
     TABLESPACE pg_default;
 
-    ALTER TABLE Prescription
+    ALTER TABLE Presciption
     OWNER to pharmacy;
 
 ----------Contains----------
-CREATE TABLE IF NOT EXISTS Contains
+DROP TABLE IF EXISTS Contains CASCADE;
+CREATE TABLE Contains
 (
     o_id integer NOT NULL,
     p_id integer NOT NULL,
@@ -161,7 +170,8 @@ CREATE TABLE IF NOT EXISTS Contains
     OWNER to pharmacy;
 
 ----------Restocks----------
-CREATE TABLE IF NOT EXISTS Restocks
+DROP TABLE IF EXISTS Restocks CASCADE;
+CREATE TABLE Restocks
 (
     e_id integer NOT NULL,
     p_id integer NOT NULL,
@@ -179,7 +189,8 @@ CREATE TABLE IF NOT EXISTS Restocks
     OWNER to pharmacy;
 
 ----------OrdersFrom----------
-CREATE TABLE IF NOT EXISTS OrdersFrom
+DROP TABLE IF EXISTS OrdersFrom CASCADE;
+CREATE TABLE OrdersFrom
 (
     e_id integer NOT NULL,
     s_id integer NOT NULL,
@@ -197,11 +208,11 @@ CREATE TABLE IF NOT EXISTS OrdersFrom
     OWNER to pharmacy;
 
 ----------Covers----------
-CREATE TABLE IF NOT EXISTS Covers
+DROP TABLE IF EXISTS Covers CASCADE;
+CREATE TABLE Covers
 (
     c_id integer NOT NULL,
     i_id integer NOT NULL,
-    order_date date NOT NULL,
     
     CONSTRAINT c_id FOREIGN KEY (c_id)
     REFERENCES Customer(c_id),
@@ -215,7 +226,8 @@ CREATE TABLE IF NOT EXISTS Covers
     OWNER to pharmacy;
 
 ----------Ships----------
-CREATE TABLE IF NOT EXISTS Ships
+DROP TABLE IF EXISTS Ships CASCADE;
+CREATE TABLE Ships
 (
     e_id integer NOT NULL,
     p_id integer NOT NULL,
@@ -233,7 +245,8 @@ CREATE TABLE IF NOT EXISTS Ships
     OWNER to pharmacy;
 
 ----------Provides----------
-CREATE TABLE IF NOT EXISTS Provides
+DROP TABLE IF EXISTS Provides CASCADE;
+CREATE TABLE Provides
 (
     s_id integer NOT NULL,
     p_id integer NOT NULL,
