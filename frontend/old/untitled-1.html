@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>test</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style="background: rgb(220, 220, 220);opacity: 1;filter: invert(0%);border-bottom-style: inset;border-bottom-color: var(--gray);">
+        <div class="container"><a class="navbar-brand" href="index.html" style="color: rgb(28,151,179);font-size: 20px;opacity: 1;">Medicine Dealers</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1" style="opacity: 1;">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">First Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Second Item</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Dropdown </a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </li>
+                </ul><span class="navbar-text actions"> <a class="login" href="login.html">Log In</a><a class="btn btn-light action-button" role="button" href="register.html" style="background: rgb(28,151,179);">Sign Up</a></span>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" style="background: rgb(248,249,252);width: 1130px;">
+        <h3 class="text-dark mb-4">Team</h3>
+        <div class="card shadow">
+            <div class="card-header py-3">
+                <p class="text-primary m-0 font-weight-bold">Products</p>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive table mt-2" id="dataTable-1" role="grid" aria-describedby="dataTable_info">
+                    <table class="table my-0" id="dataTable">
+                        <thead>
+                            <tr>
+                                <th>Product Name</th>
+                                <th style="opacity: 1;">Price</th>
+                                <th>Over the Counter</th>
+                                <th>Quantity</th>
+                                <th>Purchase Amount</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="height: 50px;text-align: left;padding: 4px;margin: 2px;border-width: 2px;border-color: rgb(33, 37, 41);">
+                                <td style="border-right-width: 10px;border-right-color: rgb(0,119,238);text-align: left;padding: 16px 8px;width: 360px;">iBueprofen</td>
+                                <td style="padding: 16px 8px;">$50</td>
+                                <td style="padding: 16px 8px;">Yes</td>
+                                <td style="padding: 16px 8px;">33</td>
+                                <td style="width: 150px;"><div class="input-group" style="border: solid; border-width:1px;border-radius: 5px; border-color: rgb(170, 170, 170);">
+      <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+              <i class="icon ion-minus"></i>
+          </button>
+      </span>
+      <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="50">
+      <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+              <i class="icon ion-plus"></i>
+          </button>
+      </span>
+</div></td>
+                                <td><button class="btn btn-primary" type="submit" style="background: var(--success);">Add to Cart</button></td>
+                            </tr>
+                            <tr style="height: 50px;text-align: left;padding: 4px;margin: 2px;border-width: 2px;border-color: rgb(33, 37, 41);">
+                                <td style="border-right-width: 10px;border-right-color: rgb(0,119,238);text-align: left;padding: 16px 8px;width: 360px;">iBueprofen</td>
+                                <td style="padding: 16px 8px;">$50</td>
+                                <td style="padding: 16px 8px;">Yes</td>
+                                <td style="padding: 16px 8px;">33</td>
+                                <td style="width: 150px;"><div class="input-group">
+      <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[2]">
+              <span class="glyphicon glyphicon-minus"></span>
+          </button>
+      </span>
+      <input type="text" name="quant[2]" class="form-control input-number" value="1" min="1" max="50">
+      <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[2]">
+              <span class="glyphicon glyphicon-plus"></span>
+          </button>
+      </span>
+</div></td>
+                                <td><button class="btn btn-primary" type="submit" style="background: var(--success);">Add to Cart</button></td>
+                            </tr>
+                            <tr style="height: 50px;text-align: left;padding: 4px;margin: 2px;border-width: 2px;border-color: rgb(33, 37, 41);">
+                                <td style="border-right-width: 10px;border-right-color: rgb(0,119,238);text-align: left;padding: 16px 8px;width: 360px;">iBueprofen</td>
+                                <td style="padding: 16px 8px;">$50</td>
+                                <td style="padding: 16px 8px;">Yes</td>
+                                <td style="padding: 16px 8px;">33</td>
+                                <td style="width: 150px;"><div class="input-group">
+      <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[3]">
+              <span class="glyphicon glyphicon-minus"></span>
+          </button>
+      </span>
+      <input type="text" name="quant[3]" class="form-control input-number" value="1" min="1" max="50">
+      <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[3]">
+              <span class="glyphicon glyphicon-plus"></span>
+          </button>
+      </span>
+</div></td>
+                                <td><button class="btn btn-primary" type="submit" style="background: var(--success);">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td style="margin: 0px;border-right-width: 2px;">Angelica Ramos</td>
+                                <td>Chief Executive Officer(CEO)</td>
+                                <td style="height: 50px;">No</td>
+                                <td>47</td>
+                                <td><br><div class="input-group">
+      <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[2]">
+              <span class="glyphicon glyphicon-minus"></span>
+          </button>
+      </span>
+      <input type="text" align="right" name="quant[2]" class="form-control input-number" value="1" min="1" max="50">
+      <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[2]">
+              <span class="glyphicon glyphicon-plus"></span>
+          </button>
+      </span>
+</div></td>
+                                <td>$1,200,000</td>
+                            </tr>
+                            <tr>
+                                <td><img class="rounded-circle mr-2" width="30" height="30" src="avatars/avatar3.jpeg">Ashton Cox</td>
+                                <td>Junior Technical Author</td>
+                                <td>San Francisco</td>
+                                <td>66</td>
+                                <td>2009/01/12<br></td>
+                                <td>$86,000</td>
+                            </tr>
+                            <tr>
+                                <td><img class="rounded-circle mr-2" width="30" height="30" src="avatars/avatar4.jpeg">Bradley Greer</td>
+                                <td>Software Engineer</td>
+                                <td>London</td>
+                                <td>41</td>
+                                <td>2012/10/13<br></td>
+                                <td>$132,000</td>
+                            </tr>
+                            <tr>
+                                <td><img class="rounded-circle mr-2" width="30" height="30" src="avatars/avatar5.jpeg">Brenden Wagner</td>
+                                <td>Software Engineer</td>
+                                <td>San Francisco</td>
+                                <td>28</td>
+                                <td>2011/06/07<br></td>
+                                <td>$206,850</td>
+                            </tr>
+                            <tr>
+                                <td><img class="rounded-circle mr-2" width="30" height="30" src="avatars/avatar1.jpeg">Brielle Williamson</td>
+                                <td>Integration Specialist</td>
+                                <td>New York</td>
+                                <td>61</td>
+                                <td>2012/12/02<br></td>
+                                <td>$372,000</td>
+                            </tr>
+                            <tr>
+                                <td><img class="rounded-circle mr-2" width="30" height="30" src="avatars/avatar2.jpeg">Bruno Nash<br></td>
+                                <td>Software Engineer</td>
+                                <td>London</td>
+                                <td>38</td>
+                                <td>2011/05/03<br></td>
+                                <td>$163,500</td>
+                            </tr>
+                            <tr>
+                                <td><img class="rounded-circle mr-2" width="30" height="30" src="avatars/avatar3.jpeg">Caesar Vance</td>
+                                <td>Pre-Sales Support</td>
+                                <td>New York</td>
+                                <td>21</td>
+                                <td>2011/12/12<br></td>
+                                <td>$106,450</td>
+                            </tr>
+                            <tr>
+                                <td><img class="rounded-circle mr-2" width="30" height="30" src="avatars/avatar4.jpeg">Cara Stevens</td>
+                                <td>Sales Assistant</td>
+                                <td>New York</td>
+                                <td>46</td>
+                                <td>2011/12/06<br></td>
+                                <td>$145,600</td>
+                            </tr>
+                            <tr>
+                                <td><img class="rounded-circle mr-2" width="30" height="30" src="avatars/avatar5.jpeg">Cedric Kelly</td>
+                                <td>Senior JavaScript Developer</td>
+                                <td>Edinburgh</td>
+                                <td>22</td>
+                                <td>2012/03/29<br></td>
+                                <td>$433,060</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td><strong>Name</strong></td>
+                                <td><strong>Position</strong></td>
+                                <td><strong>Office</strong></td>
+                                <td><strong>Age</strong></td>
+                                <td><strong>Start date</strong></td>
+                                <td><strong>Salary</strong></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <footer class="footer-basic">
+                    <p class="copyright">Medicine Dealers © 2021</p>
+                </footer>
+            </div>
+        </div><div>
+    
+<script src="quantity.js"></script>
+</div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/quantity.js"></script>
+</body>
+
+</html>

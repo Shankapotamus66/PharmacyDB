@@ -1,0 +1,25 @@
+table#Orders {
+  border-collapse: collapse;
+}
+
+#Orders tr {
+  /*background-color: #eee;*/
+  /*border-top: 1px solid #fff;*/
+}
+
+#Orders tr:hover {
+  background-color: #eee;
+}
+
+#Orders th {
+  /*background-color: #fff;*/
+}
+
+#Orders th, #Orderstd {
+  /*padding: 3px 5px;*/
+}
+
+#Orders td:hover {
+  cursor: pointer;
+}
+

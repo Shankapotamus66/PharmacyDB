@@ -2,14 +2,14 @@
 CREATE TABLE IF NOT EXISTS Customer
 (
     c_id SERIAL NOT NULL,
-    c_fname character varying(20) COLLATE pg_catalog."default" NOT NULL,
-    c_lname character varying(20) COLLATE pg_catalog."default" NOT NULL,
-    c_phoneNum character varying(15) NOT NULL,
-    c_email character varying(50) COLLATE pg_catalog."default" NOT NULL,
-    c_password character varying(32) COLLATE pg_catalog."default" NOT NULL,
-    c_doctor character varying(50) COLLATE pg_catalog."default",
-    c_dob character varying(10) COLLATE pg_catalog."default" NOT NULL,
-    c_address character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    c_fname character varying(256) COLLATE pg_catalog."default" NOT NULL,
+    c_lname character varying(256) COLLATE pg_catalog."default" NOT NULL,
+    c_phoneNum character varying(256) NOT NULL,
+    c_email character varying(256) COLLATE pg_catalog."default" NOT NULL,
+    c_password character varying(256) COLLATE pg_catalog."default" NOT NULL,
+    c_doctor character varying(256) COLLATE pg_catalog."default",
+    c_dob character varying(256) COLLATE pg_catalog."default" NOT NULL,
+    c_address character varying(256) COLLATE pg_catalog."default" NOT NULL,
     CONSTRAINT Customer_pkey PRIMARY KEY (c_id)
 )
 
@@ -22,14 +22,14 @@ CREATE TABLE IF NOT EXISTS Customer
 CREATE TABLE IF NOT EXISTS Employee
 (
     e_id SERIAL NOT NULL,
-    e_fname character varying(20) COLLATE pg_catalog."default" NOT NULL,
-    e_lname character varying(20) COLLATE pg_catalog."default" NOT NULL,
+    e_fname character varying(256) COLLATE pg_catalog."default" NOT NULL,
+    e_lname character varying(256) COLLATE pg_catalog."default" NOT NULL,
     e_salary integer NOT NULL,
-    e_position character varying(32) COLLATE pg_catalog."default" NOT NULL,
-    e_snn character varying(11) COLLATE pg_catalog."default" NOT NULL,
-    e_address character varying(50) COLLATE pg_catalog."default" NOT NULL,
-    e_email character varying(50) COLLATE pg_catalog."default" NOT NULL,
-    e_password character varying(32) COLLATE pg_catalog."default" NOT NULL,
+    e_position character varying(256) COLLATE pg_catalog."default" NOT NULL,
+    e_snn character varying(256) COLLATE pg_catalog."default" NOT NULL,
+    e_address character varying(256) COLLATE pg_catalog."default" NOT NULL,
+    e_email character varying(256) COLLATE pg_catalog."default" NOT NULL,
+    e_password character varying(256) COLLATE pg_catalog."default" NOT NULL,
 
     CONSTRAINT Employee_pkey PRIMARY KEY (e_id)
 )
@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS Product
     p_id SERIAL NOT NULL,
     p_price integer NOT NULL,
     p_name text NOT NULL,
-    p_supplier character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    p_supplier character varying(256) COLLATE pg_catalog."default" NOT NULL,
     p_quantity integer NOT NULL,
     p_PrescriptionNeeded boolean NOT NULL,
     
@@ -61,7 +61,7 @@ CREATE TABLE IF NOT EXISTS Product
 CREATE TABLE IF NOT EXISTS Insurance
 (
     i_id SERIAL NOT NULL,
-    i_name character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    i_name character varying(256) COLLATE pg_catalog."default" NOT NULL,
     i_discount integer,
     
     CONSTRAINT Insurance_pkey PRIMARY KEY (i_id)
@@ -76,7 +76,7 @@ CREATE TABLE IF NOT EXISTS Insurance
 CREATE TABLE IF NOT EXISTS Supplier
 (
     s_id SERIAL NOT NULL,
-    s_name character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    s_name character varying(256) COLLATE pg_catalog."default" NOT NULL,
     
     CONSTRAINT Supplier_pkey PRIMARY KEY (s_id)
 )
@@ -91,7 +91,7 @@ CREATE TABLE IF NOT EXISTS Orders
 (
     c_id integer NOT NULL,
     o_id SERIAL NOT NULL,
-    o_shipDate character varying(32) COLLATE pg_catalog."default" NOT NULL,
+    o_shipDate date NOT NULL,
     
     CONSTRAINT Order_pkey PRIMARY KEY (o_id),
     CONSTRAINT c_id FOREIGN KEY (c_id)
@@ -127,7 +127,7 @@ CREATE TABLE IF NOT EXISTS Prescription
 (
     p_id integer NOT NULL,
     c_id integer NOT NULL,
-    pre_doctorName character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    pre_doctorName character varying(256) COLLATE pg_catalog."default" NOT NULL,
     pre_lastFilled date NOT NULL,
     pre_refill integer NOT NULL,
     
